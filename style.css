@@ -35,10 +35,6 @@ body{
     font-size: 16px;
     line-height: 26px;
 }
-iframe{      
-    height: 100vh;  
-    width: 100%;   
-}
 .i1{
     background-color: transparent;
     border-radius: 50%;
@@ -68,8 +64,15 @@ iframe{
         margin-top: 50px;
     }
 }
-hr{
-    border: 0;
-    border-top: 1px solid #9b9b9b;
-                            
+.h6 {
+    color: #9b9b9b !important;
+    font-family: Noto-regional,Noto-latin,TCCC-UnityText;
+    font-size: 10px;
+    font-weight: 600;
+}
+.footer-li{
+    margin: 10px 0;
+}
+@media(max-width){
+    
 }
